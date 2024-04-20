@@ -1,0 +1,13 @@
+/*@import url("raiz.css");*/
+/* 
+    Created on : 19 dic. 2021, 1:20:45 a. m.
+    Author     : neury-dev
+*/
+
+.root {
+/*    -fx-background-color: n-color-2;*/
+}
+.border-pane {
+    -fx-background-color: n-color-2;
+    -fx-padding: 16;
+}

@@ -1,0 +1,43 @@
+/* 
+    Created on : 19 dic. 2021, 1:19:51 a. m.
+    Author     : neury-dev
+*/
+.v-box {
+    -fx-background-color: inherit;
+    -fx-alignment: CENTER;
+    -fx-padding: 16;
+    -fx-spacing: 8;
+}
+.toggle-button {
+    -fx-fill: n-color-2;
+    -fx-background-color: n-color-1;
+    -fx-background-radius: 4px;
+    -fx-content-display: graphic-only;
+    -fx-pref-width: 50px;
+    -fx-border: none;
+    -fx-cursor: hand;
+}
+.toggle-button .svg-path {
+    -fx-fill: n-color-2;
+}
+.toggle-button:selected {
+    -fx-fill: n-color-1;
+    -fx-background-color: n-color-2;
+    -fx-border-width: 0 0 0 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-1;
+}
+.toggle-button:selected .svg-path {
+    -fx-fill: n-color-1;
+}
+/*.button {
+    -fx-text-fill: n-color-1;
+    -fx-background-color: n-color-4;
+    -fx-background-radius: 4px;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-content-display: text-only;
+    -fx-pref-width: 50px;
+    -fx-border: none;
+    -fx-cursor: hand;
+}*/

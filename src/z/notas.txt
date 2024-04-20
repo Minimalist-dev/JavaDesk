@@ -1,0 +1,7 @@
+- Desarrollos ya echos
+- Email
+- Codigo fuente, con albor de carpeta
+- .txt
+    https://www.ecodeup.com/como-escribir-y-leer-archivos-de-texto-plano-en-java/
+    https://jarroba.com/lectura-escritura-ficheros-java-ejemplos/
+

@@ -1,0 +1,24 @@
+/* 
+    Created on : 9 ene. 2022, 3:13:06 p. m.
+    Author     : neury-dev
+*/
+.border-pane {
+    -fx-padding: 16;
+}
+.border-pane > .top {
+    -fx-pref-height: 50;
+}
+.border-pane > .left {
+    -fx-pref-height: 50;
+}
+.border-pane > .center {
+    -fx-alignment: CENTER;
+    -fx-padding: 16;
+}
+.border-pane > .right {
+    -fx-pref-height: 50;
+}
+.border-pane > .bottom {
+    -fx-alignment: CENTER;
+    -fx-pref-height: 50;
+}

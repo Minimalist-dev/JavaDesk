@@ -1,0 +1,11 @@
+/* 
+    Created on : 19 dic. 2021, 1:19:43 a. m.
+    Author     : neury-dev
+*/
+.v-box {
+    -fx-alignment: center;
+}
+.label {
+    -fx-text-fill: n-color-1;
+    -fx-font-size: 10px;
+}

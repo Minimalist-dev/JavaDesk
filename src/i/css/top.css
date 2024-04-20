@@ -1,0 +1,36 @@
+/* 
+    Created on : 19 dic. 2021, 1:19:18 a. m.
+    Author     : neury-dev
+*/
+.top {
+/*    -fx-background-color: n-color-1;
+    -fx-border-weight: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-1;*/
+}
+.logo {
+    -fx-text-fill: n-color-1;
+    -fx-font-size: 24;
+    -fx-font-weight: bold;
+}
+.menu-bar {
+    -fx-background-color: n-color-2;
+}
+.menu-bar .menu  {
+    -fx-background-color: n-color-2;
+}
+.menu-bar .menu .label {
+    -fx-text-fill: n-color-1;
+}
+.menu-bar .menu .menu-item {
+    -fx-background-color: n-color-1;
+}
+.menu-bar .menu .menu-item:hover {
+    -fx-background-color: n-color-2;
+}
+.menu-bar .menu .menu-item .label {
+    -fx-text-fill: n-color-2;
+}
+.menu-bar .menu .menu-item:hover .label {
+    -fx-text-fill: n-color-1;
+}

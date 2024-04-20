@@ -1,0 +1,23 @@
+- OpenFX:
+    https://openjfx.io/
+
+-Java FX:
+    https://docs.oracle.com/javase/8/javafx/api/toc.htm
+
+-Java SE:
+    https://docs.oracle.com/javase/8/docs/api/overview-summary.html
+
+-CSS:
+    https://docs.oracle.com/javase/8/javafx/api/javafx/scene/doc-files/cssref.html
+
+-XML:
+    https://docs.oracle.com/javase/8/javafx/api/javafx/fxml/doc-files/introduction_to_fxml.html
+
+- Otras:
+    - FontAwesobeFX: 
+        - https://www.youtube.com/watch?v=Fb764uG3aXo
+        - https://javadoc.io/doc/de.jensd/fontawesomefx/latest/index.html
+        - https://www.youtube.com/watch?v=KVwpaa8izXM
+        - https://mvnrepository.com/artifact/de.jensd/fontawesomefx/8.2 
+        - https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbm51U2RpZ1NsOGlKeFZKY2JfejhuSVhUcU1pd3xBQ3Jtc0ttYjRiMnFRaVZMQTNtRmVRV1hKMGVOT1pyeHFfb2FJQ2NoZFZKMTZzUEx4aWJtbDkwTnNwWnVKd3dMQllYX0xPYlptemFtdXhBcnJwWTlhNzFEc2g2cE1Sd3IxLU9jeEJKN2dTNzBUUDJrOTBxMXM0MA&q=https%3A%2F%2Fgithub.com%2FJerady%2Ffontawesomefx-examples
+        - https://bitbucket.org/Jerady/fontawesomefx/downloads/

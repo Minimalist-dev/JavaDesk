@@ -1,0 +1,61 @@
+/* 
+    Created on : 3 ene. 2022, 1:05:17 a. m.
+    Author     : neury-dev
+*/
+.root {
+    -fx-background-color: n-color-2;
+    
+    n-color-0:            transparent;
+    n-color-1:            #ffffff;
+    n-color-1-1:          rgba(255, 255, 255, 0.1);
+    n-color-1-2:          rgba(255, 255, 255, 0.2);
+    n-color-1-3:          rgba(255, 255, 255, 0.3);
+    n-color-1-4:          rgba(255, 255, 255, 0.4);
+    n-color-1-5:          rgba(255, 255, 255, 0.5);
+    n-color-1-6:          rgba(255, 255, 255, 0.6);
+    n-color-1-7:          rgba(255, 255, 255, 0.7);
+    n-color-1-8:          rgba(255, 255, 255, 0.8);
+    n-color-1-9:          rgba(255, 255, 255, 0.9);
+    n-color-2:            #1c1d22;
+    n-color-2-1:          rgba(28, 29, 34, 0.1);
+    n-color-2-2:          rgba(28, 29, 34, 0.2);
+    n-color-2-3:          rgba(28, 29, 34, 0.3);
+    n-color-2-4:          rgba(28, 29, 34, 0.4);
+    n-color-2-5:          rgba(28, 29, 34, 0.5);
+    n-color-2-6:          rgba(28, 29, 34, 0.6);
+    n-color-2-7:          rgba(28, 29, 34, 0.7);
+    n-color-2-8:          rgba(28, 29, 34, 0.8);
+    n-color-2-9:          rgba(28, 29, 34, 0.9);
+    n-color-3:            #457725;
+    n-color-3-1:          rgba(69, 119, 37, 0.1);
+    n-color-3-2:          rgba(69, 119, 37, 0.2);
+    n-color-3-3:          rgba(69, 119, 37, 0.3);
+    n-color-3-4:          rgba(69, 119, 37, 0.4);
+    n-color-3-5:          rgba(69, 119, 37, 0.5);
+    n-color-3-6:          rgba(69, 119, 37, 0.6);
+    n-color-3-7:          rgba(69, 119, 37, 0.7);
+    n-color-3-8:          rgba(69, 119, 37, 0.8);
+    n-color-3-9:          rgba(69, 119, 37, 0.9);
+    n-color-4:            #901E1D;
+    n-color-4-1:          rgba(144, 30, 29, 0.1);
+    n-color-4-2:          rgba(144, 30, 29, 0.2);
+    n-color-4-3:          rgba(144, 30, 29, 0.3);
+    n-color-4-4:          rgba(144, 30, 29, 0.4);
+    n-color-4-5:          rgba(144, 30, 29, 0.5);
+    n-color-4-6:          rgba(144, 30, 29, 0.6);
+    n-color-4-7:          rgba(144, 30, 29, 0.7);
+    n-color-4-8:          rgba(144, 30, 29, 0.8);
+    n-color-4-9:          rgba(144, 30, 29, 0.9);
+}
+
+.toggle-button, 
+.button, 
+.menu, 
+.menu-item, 
+.tab, 
+.list-cell, 
+.scroll-bar > .thumb, 
+.increment-button, 
+.decrement-button { 
+    -fx-cursor: hand; 
+}

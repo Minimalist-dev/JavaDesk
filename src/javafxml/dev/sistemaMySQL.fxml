@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane prefHeight="410.0" prefWidth="640.0" styleClass="grid-pane" stylesheets="@../../i/css/dev/sistema_mysql.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="l.fxml.SistemaMySQLController">
+   <columnConstraints>
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="-Infinity" prefWidth="40.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="10.0" prefWidth="60.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="0.0" prefWidth="61.0" />
+      <ColumnConstraints hgrow="SOMETIMES" maxWidth="-Infinity" minWidth="3.0" prefWidth="53.0" />
+      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="419.0" />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints maxHeight="-Infinity" minHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+      <RowConstraints minHeight="0.0" prefHeight="106.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+      <RowConstraints maxHeight="-Infinity" minHeight="0.0" prefHeight="40.0" vgrow="SOMETIMES" />
+   </rowConstraints>
+   <children>
+      <Label text="ID">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label text="Nombre" GridPane.rowIndex="1">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label text="Marca" GridPane.rowIndex="2">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label text="Precio" GridPane.rowIndex="3">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TableView fx:id="tabla" onMouseClicked="#handleTabla" prefHeight="233.0" prefWidth="375.0" GridPane.columnIndex="4" GridPane.rowSpan="7">
+        <columns>
+          <TableColumn fx:id="columnaId" prefWidth="75.0" text="ID" />
+          <TableColumn fx:id="columnaNombre" prefWidth="75.0" text="Nombre" />
+            <TableColumn fx:id="columnaMarca" prefWidth="75.0" text="Marca" />
+            <TableColumn fx:id="columnaPrecio" prefWidth="75.0" text="Precio" />
+            <TableColumn fx:id="columnaFecha" prefWidth="75.0" text="Fecha" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+      <TextField fx:id="entradaId" disable="true" editable="false" GridPane.columnIndex="1" GridPane.columnSpan="3" />
+      <TextField fx:id="entradaNombre" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="1" />
+      <TextField fx:id="entradaMarca" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="2" />
+      <TextField fx:id="entradaPrecio" GridPane.columnIndex="1" GridPane.columnSpan="3" GridPane.rowIndex="3" />
+      <Button fx:id="insertar" mnemonicParsing="false" onAction="#handle" text="Insetar" GridPane.columnSpan="2" GridPane.rowIndex="6" />
+      <Button fx:id="actualizar" mnemonicParsing="false" onAction="#handle" text="Actualizar" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="6" />
+      <Button fx:id="eliminar" mnemonicParsing="false" onAction="#handle" text="Eliminar" GridPane.columnIndex="2" GridPane.columnSpan="2" GridPane.rowIndex="7" />
+      <Button fx:id="limpiar" mnemonicParsing="false" onAction="#handle" text="Limpiar" GridPane.columnSpan="2" GridPane.rowIndex="7" />
+      <HBox alignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="7">
+         <children>
+            <Button fx:id="anterior" mnemonicParsing="false" onAction="#handle" text="Anterior" />
+            <TextField fx:id="paginaciones" prefHeight="23.0" prefWidth="71.0" styleClass="pagina" />
+            <Button fx:id="siguiente" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#handle" text="Siguiente" />
+         </children>
+      </HBox>
+      <Label fx:id="res" textAlignment="CENTER" GridPane.columnSpan="4" GridPane.rowIndex="4" />
+   </children>
+</GridPane>

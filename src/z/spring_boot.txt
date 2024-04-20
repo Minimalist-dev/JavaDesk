@@ -1,0 +1,26 @@
+- Spring Boot:
+    - https://spring.io
+    - https://spring.io/projects/spring-boot
+        - https://docs.spring.io/spring-data/jdbc/docs/current/api/
+        - https://docs.spring.io/spring-data/jdbc/docs/current/reference/html/#reference
+
+    - Referencia:
+        https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/web/bind/annotation/package-summary.html
+    
+    - Estructura:
+        - Controller
+        - Servicos
+        - Repositorios
+        - Modelos
+
+    - conectar los microservicios
+        - https://spring.io/guides/gs/accessing-mongodb-data-rest/
+		
+- Aplicación web en desktop: 
+	https://spring.io/guides/gs/securing-web/
+	https://spring.io/guides/gs/uploading-files/
+	https://spring.io/guides/gs/validating-form-input/
+	https://spring.io/guides/gs/messaging-stomp-websocket/
+
+
+

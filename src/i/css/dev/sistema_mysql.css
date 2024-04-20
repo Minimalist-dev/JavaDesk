@@ -1,0 +1,70 @@
+/* 
+    Created on : 11 ene. 2022, 11:05:14 p. m.
+    Author     : neury-dev
+*/
+.grid-pane {
+    -fx-background-color: n-color-1;
+    -fx-alignment: CENTER;
+    -fx-pref-width: 500px;
+    -fx-padding: 16px;
+    -fx-hgap: 10;
+    -fx-vgap: 10;
+}
+.label {
+    -fx-text-fill: n-color-2;
+    -fx-font-size: 10px;
+    -fx-text-alignment: left;
+    -fx-font-weight: bold;
+}
+.text-field {
+    -fx-font-size: 10px;
+    /*-fx-alignment: CENTER_LEFT;*/
+    -fx-halignment: left;
+    /*-fx-pref-height: 36px;*/
+    -fx-border-width: 1;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-2;
+    -fx-border-radius: 4;
+}
+.button {
+    -fx-text-fill: n-color-1;
+    -fx-background-color: n-color-2;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-alignment: CENTER;
+    -fx-pref-width: 100px;
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: n-color-2;
+    -fx-border-radius: 4;
+}
+.table-view {
+    -fx-background-color: none; 
+    -fx-border-color: none;
+}
+.table-view .column-header {
+    -fx-background-color: n-color-2;
+}
+.table-view .column-header .label {
+    -fx-text-fill: n-color-1;
+    -fx-font-weight: bold;
+}
+.table-view .column-header-background {}
+.table-view .table-row-cell {
+    -fx-text-fill: n-color-2;
+    -fx-table-cell-border-color: transparent;
+    -fx-cursor: hand;
+}
+.table-view .table-row-cell:selected {
+    -fx-background-color: n-color-2-5;
+    -fx-background-insets: 0;
+}
+
+.table-view .table-column {}
+.table-view .table-cell {}
+.pagina {
+    -fx-alignment: CENTER;
+    -fx-border-color: n-color-1;
+}
+
+

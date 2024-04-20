@@ -1,0 +1,8 @@
+/* 
+    Created on : 26 mar. 2022, 2:24:44 p. m.
+    Author     : neury-dev
+*/
+.center {
+    -fx-background-color: n-color-1;
+    -fx-alignment: CENTER;
+}

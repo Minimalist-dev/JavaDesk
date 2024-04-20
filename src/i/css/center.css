@@ -1,0 +1,23 @@
+/* 
+    Created on : 19 dic. 2021, 1:19:33 a. m.
+    Author     : neury-dev
+*/
+.niveles {
+    /*-fx-background-color: greenyellow;*/
+    -fx-alignment: center;
+    -fx-pref-width: 449;
+    -fx-pref-height: 300;
+}
+.grid-pane { -fx-pref-width: 449;  -fx-pref-height: 300; }
+.label {
+    /*-fx-background-color: n-color-1;*/
+}
+.path,
+.line,
+.circle {
+    -fx-stroke-width: 2;
+    -fx-stroke: n-color-1;
+}
+.path { -fx-fill: n-color-0; }
+.text { -fx-fill: n-color-1; }
+.circle { -fx-fill: n-color-2; }

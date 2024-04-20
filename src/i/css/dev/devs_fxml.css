@@ -1,0 +1,37 @@
+/* 
+    Created on : 12 feb. 2022, 1:05:19 p. m.
+    Author     : neury-dev
+*/
+.scroll-pane {
+    -fx-hbar-policy: never;-fx-padding: 0;
+}
+.flow-pane {
+    -fx-alignment: CENTER;
+    -fx-column-halignment: center;
+    -fx-pref-width: 886px;
+    -fx-padding: 0 16 0 0;
+}
+.desarrollo {
+    -fx-background-color: n-color-2;
+    -fx-background-radius: 4; 
+    -fx-background-insets: 2px;
+    -fx-border-color: n-color-2;
+    -fx-border-radius: 4;
+    -fx-border-insets: 2px;
+}
+.desarrollo:hover {
+    -fx-background-color: n-color-2-8;
+    -fx-border-color: n-color-1;
+}
+.hyperlink {
+    -fx-text-fill: n-color-1;
+    -fx-font-size: 10px;
+    -fx-font-weight: bold;
+    -fx-padding: 4 0 0 8;
+    -fx-underline: false;
+}
+.label {
+    -fx-text-fill: n-color-1;
+    -fx-font-size: 10px;
+    -fx-padding: 8 0 8 8;
+}

@@ -1,0 +1,20 @@
+/* 
+    Created on : 29 ene. 2022, 17:29:50
+    Author     : neury-dev
+*/
+
+.sesion {
+    -fx-background-color: n-color-1; 
+    -fx-alignment: CENTER;
+}
+.label {
+    
+}
+.button {
+    -fx-text-fill: n-color-1;
+    -fx-background-color: n-color-4;
+    -fx-background-radius: 4px;
+    -fx-font-weight: bold;
+    -fx-border: none;
+    -fx-cursor: hand;
+}
