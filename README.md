@@ -1,2 +1,2 @@
-# Java
+# JavaDesk
 Desarrollo desktop (Java)
